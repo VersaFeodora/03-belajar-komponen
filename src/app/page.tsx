@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Profile from "../components/profile";
+import { Gallery } from "@/components/gallery";
+
 
 export default function Home() {
   return(
@@ -7,11 +8,7 @@ export default function Home() {
       <p className="text-center">
           Ilmuwan yang luar biasa
       </p>
-      <div className="flex flex-row">
-        <div><Profile /></div>
-        <div><Profile /></div>
-        <div><Profile /></div>
-      </div>
+      <Gallery />
     </main>
   );
 }
