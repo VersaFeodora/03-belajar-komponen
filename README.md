@@ -44,3 +44,11 @@ The result would be as follows;
     As per the message above, person is a _list variable_, which means that property listed inside the variable needs to be declared of in order to return a value assigned in said property. In this case, as we need the `name` property, we should call `person.name` instead.
 ![Screenshot](README-pic/11.png)
 <br />
+
+### Question 5
+![Screenshot](README-pic/12.png)
+    We could extract the URL from object Person by adding another attribute/property. In this case, by adding `src: "https://i.imgur.com/7vQD0fPs.jpg"` within the list, we can retrieve the URL from said object into src property inside `<img>` element by calling `person.src`.
+![Screenshot](README-pic/13.png)
+From the experiment, the image remains the same because the URL used is also the same one as before--only the URL declaration method is different.
+<br />
+
