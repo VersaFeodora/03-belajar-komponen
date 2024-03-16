@@ -92,3 +92,8 @@ There are several errors detected, which are;
 ![Screenshot](README-pic/21.png)
 In addition, creating new variable inside the `MyAvatar` function and add else-if condition in line 4 would allow us to change the parameter from 'b' to 's'.
 <br/>
+
+### Question 9
+![Screenshot](README-pic/22.png)
+From this code, we can learn that component could be used as some sort of element, in which it contains several other elements (in this case, there are two `<div>` elements inside the `<card>` element) and have children props as JSX inside the said elements.
+<br/>Of course, using this method allows more flexibility in creating our own custom element without needs to write down the combined elements over and over again, allowing more flexibility and creativity in creating website, especially in frontend area.
