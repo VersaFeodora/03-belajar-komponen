@@ -82,3 +82,13 @@ The result is below;
 ![Screenshot](README-pic/18.png)
 ![Screenshot](README-pic/19.png)
 <br/>
+
+### Question 8
+![Screenshot](README-pic/20.png)
+There are several errors detected, which are;
+1. There isn't any explicit declaration that the datatype of the parameters are `any`, so it needs to be declared outside the parameter bracket
+2. The imported component name is `getImageUrlV2` and not `getImageUrl`, hereby the line 7 needs to be changed
+<br/><br/>
+![Screenshot](README-pic/21.png)
+In addition, creating new variable inside the `MyAvatar` function and add else-if condition in line 4 would allow us to change the parameter from 'b' to 's'.
+<br/>
