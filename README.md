@@ -63,3 +63,22 @@ By using the concatenation method above, the url source will be the same as prev
 ![Screenshot](README-pic/13.png)
 <br />
 
+### Question 7
+![Screenshot](README-pic/16.png)
+In this code, the similar attributes are as follows;
+- Name of the scientist
+- Image attribute
+- List of profession, achievements, and their inventions
+<br/><br/>
+Because of this, we need to separate those attributes into props to reduce duplication within our code. MyGallery page is placed under `app/mygallery/page.tsx` and the component MyProfile is placed under `components/myprofile.tsx` for easier navigation.
+<br/><hr/>
+![Screenshot](README-pic/17.png)
+From the code above, it is shown that the props used are as follows;
+- Person object with attribute id (for imgur id) and name
+- Size attribute for image width and length
+- Data object, which consists of various attributes such as profession, achievements (in form of array to make it easier to count how many achievements they have), and inventions
+<br/><br/>
+The result is below;
+![Screenshot](README-pic/18.png)
+![Screenshot](README-pic/19.png)
+<br/>
