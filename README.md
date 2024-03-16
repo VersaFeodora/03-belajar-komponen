@@ -37,3 +37,10 @@ The errors in the written code are as follows;
 The result would be as follows;
 ![Screenshot](README-pic/8.png)
 ![Screenshot](README-pic/9.png)
+<br />
+
+### Question 4
+![Screenshot](README-pic/10.png)
+    As per the message above, person is a _list variable_, which means that property listed inside the variable needs to be declared of in order to return a value assigned in said property. In this case, as we need the `name` property, we should call `person.name` instead.
+![Screenshot](README-pic/11.png)
+<br />
