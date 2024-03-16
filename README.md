@@ -52,3 +52,14 @@ The result would be as follows;
 From the experiment, the image remains the same because the URL used is also the same one as before--only the URL declaration method is different.
 <br />
 
+### Question 6
+![Screenshot](README-pic/14.png)
+The src above would only form the text `{baseUrl}{person.imageId}{person.imageSize}.jpg`, which is by no means not a valid URL for imgur, and will return an empty data instead.
+In order to concat several different attributes into one, we only need to use one pair of bracket and combine them by using + operator.
+![Screenshot](README-pic/15.png)
+By using this, the src will be detected as `https://i.imgur.com/7vQD0fPs.jpg`, which is a valid URL to retrieve an image from imgur.
+<br />
+By using the concatenation method above, the url source will be the same as previous practicum, thus there is no change in its image display.
+![Screenshot](README-pic/13.png)
+<br />
+
